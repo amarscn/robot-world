@@ -5,13 +5,6 @@ require 'uri'
 require 'pg'
 require 'timeloop' #Using timeloop library for looping in a time period
 
-# uri = URI('https://hooks.slack.com/services/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')
-# Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
-#   request = Net::HTTP::Post.new(uri, 'Content-Type' => 'application/json')
-#   request.body = {parameter: 'value'}.to_json
-#   response = http.request request # Net::HTTPResponse object
-#   puts "response #{response}"
-# end
 
 
 def Guard_Bot_Stock_Mover # This function will move non-defective stock to store from factory
