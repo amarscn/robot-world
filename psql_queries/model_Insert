@@ -1,0 +1,39 @@
+INSERT INTO public. Model (
+	id,  model_Name )
+	VALUES (1, 'RX300');
+	
+	INSERT INTO public. Model (
+	id,  model_Name )
+	VALUES (2, 'LX350');
+	
+	INSERT INTO public. Model (
+	id,  model_Name )
+	VALUES (3, 'CRV300');
+	
+	INSERT INTO public. Model (
+	id,  model_Name )
+	VALUES (4, 'RX450');
+	
+	INSERT INTO public. Model (
+	id,  model_Name )
+	VALUES (5, 'Lexus Sport');
+	
+	INSERT INTO public. Model (
+	id,  model_Name )
+	VALUES (6, 'LRV Sedan');
+	
+	INSERT INTO public. Model (
+	id,  model_Name )
+	VALUES (7, 'LXV SUV');
+	
+	INSERT INTO public. Model (
+	id,  model_Name )
+	VALUES (8, 'CRV 4 Wheel');
+	
+	INSERT INTO public. Model (
+	id,  model_Name )
+	VALUES (9, 'TRV Sedan');
+	
+	INSERT INTO public. Model (
+	id,  model_Name )
+	VALUES (10, 'TXV Sport');

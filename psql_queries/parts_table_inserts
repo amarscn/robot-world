@@ -1,0 +1,39 @@
+INSERT INTO public.parts(
+	id, part_name)
+	VALUES (1, 'Chasis');
+	
+	INSERT INTO public.parts(
+	id, part_name)
+	VALUES (2, 'Front Left Wheel');
+	
+	INSERT INTO public.parts(
+	id, part_name)
+	VALUES (3, 'Front Right Wheel');
+	
+	INSERT INTO public.parts(
+	id, part_name)
+	VALUES (4, 'Back left Wheel');
+	
+	INSERT INTO public.parts(
+	id, part_name)
+	VALUES (5, 'Back Right Wheel');
+	
+	INSERT INTO public.parts(
+	id, part_name)
+	VALUES (6, 'Driver Seat');
+	
+	INSERT INTO public.parts(
+	id, part_name)
+	VALUES (7, 'Passenger Seat');
+	
+	INSERT INTO public.parts(
+	id, part_name)
+	VALUES (8, 'Engine');
+	
+	INSERT INTO public.parts(
+	id, part_name)
+	VALUES (9, 'Computer');
+	
+	INSERT INTO public.parts(
+	id, part_name)
+	VALUES (10, 'Laser');

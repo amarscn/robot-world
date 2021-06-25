@@ -1,0 +1,11 @@
+INSERT INTO public. Assembly_Stage (
+	id,  Name )
+	VALUES (1, 'Basic Structure');
+	
+	INSERT INTO public. Assembly_Stage (
+	id,  Name )
+	VALUES (2, 'Electronic Devices');
+	
+	INSERT INTO public. Assembly_Stage (
+	id,  Name )
+	VALUES (3, 'Painting and Final Details');

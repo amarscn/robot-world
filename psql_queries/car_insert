@@ -1,0 +1,3 @@
+INSERT INTO public.car(
+	"model_ID", year, price, part_id, assembly_stage_id)
+	VALUES (1, '2014-01-01',2300, 1, 1);

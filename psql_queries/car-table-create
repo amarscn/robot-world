@@ -1,0 +1,32 @@
+-- Table: public.car
+
+-- DROP TABLE public.car;
+
+CREATE TABLE IF NOT EXISTS public.car
+(
+    id integer NOT NULL,
+    model_id integer NOT NULL,
+    year date NOT NULL,
+    cost_price double precision NOT NULL,
+    part_id integer NOT NULL,
+    assembly_stage_id integer NOT NULL,
+    sale_price double precision,
+    CONSTRAINT car_pkey PRIMARY KEY (id),
+    CONSTRAINT car_assembly_stage_id_foreign FOREIGN KEY (assembly_stage_id)
+        REFERENCES public.assembly_stage (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT car_model_id_foreign FOREIGN KEY (model_id)
+        REFERENCES public.model (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT car_part_id_foreign FOREIGN KEY (part_id)
+        REFERENCES public.car_parts (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.car
+    OWNER to amardeep;
